@@ -17,6 +17,9 @@ configmap:
 labels:
   sample : sample-value
   another: another-value
+args:
+   - arg1
+   - arg2
 keyVaults:
   "s2s":
     secrets:
